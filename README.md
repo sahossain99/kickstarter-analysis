@@ -1,8 +1,12 @@
 # kickstarter-analysis
 ## Performing Analysis on Kickstarter Data to uncover trends
 
+### Introduction
+
 Louise is trying to run a crowdfunding campaign for her play and plans to raise $10,000. We have data regarding past crowdfunding efforts in various countries. This data has been and organized, sorted to showcase to Louse what makes a crowdfunding project successful in US and GB. 
 ---
+### Analysis
+
 ![](images/theatre%20outcomes.png)
 
 From this analysis we found that there were 525 successful theater campaigns in the US while there were 349 that failed.
