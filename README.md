@@ -12,14 +12,14 @@ The Purpose of the project was to help Louise understand how previous fundraisin
 
 ### Analysis of Outcomes Based on Launch Date
 
-![]Resources/Theatre_Outcomes_vs_Launch.png
+![](Resources/Theatre_Outcomes_vs_Launch.png)
 
 From the analysis of data and the line chart of outcomes based on the launch month for the theater category of Kickstarter campaigns we can see that May is the best time to launch such campaigns. Campaigns launched in September to March are the least successful. Although, there are a high number of failed campaigns in May, it could be attributed to the fact that a total of 166 theater campaigns were launched that month which is the highest across all the other months.
 
 
 ### Analysis of Outcomes Based on Goals
 
-![]Resources/Outcomes_vs_Goals.png
+![](Resources/Outcomes_vs_Goals.png)
 
 From the line chart on we can observe that campaigns for plays who had a goal of less than $1000 and just below $5000 were the most successful with close to having a success rate in the 70th percentile. On the other hand, plays who had a goal between $35000 and $40000 also had a good success rate close to 67%. This can indicate that other than just the fundraising goal there could be other factors that do a play an important part in having a successful campaign. The most unsuccessful campaigns are the ones who set with goals over $45,000.  
 
