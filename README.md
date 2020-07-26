@@ -14,7 +14,7 @@ The Purpose of the project was to help Louise understand how previous fundraisin
 
 ![](Resources/Theater_Outcomes_vs_Launch.png)
 
-From the analysis of data and the line chart of outcomes based on the launch month for the theater category of Kickstarter campaigns we can see that May is the best time to launch such campaigns. Campaigns launched in September to March are the least successful. Although, there are a high number of failed campaigns in May, it could be attributed to the fact that a total of 166 theater campaigns were launched that month which is the highest across all the other months.
+From the analysis of data and the line chart of outcomes based on the launch month for the theater category of Kickstarter campaigns we can see that May is the best time to launch such campaigns. Campaigns launched between September to March are the least successful. Although, there are a high number of failed campaigns in May, it could be attributed to the fact that a total of 166 theater campaigns were launched that month which is the highest across all the other months.
 
 
 ### Analysis of Outcomes Based on Goals
