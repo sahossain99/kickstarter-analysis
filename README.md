@@ -1,30 +1,48 @@
-# kickstarter-analysis
-## Performing Analysis on Kickstarter Data to uncover trends
+# Kickstarting with Excel
 
-### Introduction
+## Overview of Project
 
-Louise is trying to run a crowdfunding campaign for her play and plans to raise $10,000. We have data regarding past crowdfunding efforts in various countries. This data has been and organized, sorted to showcase to Louse what makes a crowdfunding project successful in US and GB. 
----
-### Analysis
+Louise, an aspiring playwright successfully received funding from a fundraising campaign for her play. Now, Louise wanted to know how different campaigns in the category of theater and more specifically plays performed based on their launch dates and their funding goal. We have a dataset of past Kickstarter campaigns with various observations and measures which was utilized to analyze how such Kickstarter campaigns similar to Louise’s performed in relation to when they were launched and how much goal they set out with. This report provides analysis and visualization to summarize the deductions made from the data set on past Kickstarter Campaigns.     
 
-![](images/theatre%20outcomes.png)
+### Purpose
 
-From this analysis we found that there were 525 successful theater campaigns in the US while there were 349 that failed.
+The Purpose of the project was to help Louise understand how previous fundraising campaigns performed in relation to their launch date and funding goal by analyzing a data set on past Kickstarter campaigns similar to her campaign.
 
-![](images/gb%20plays%20outcomes.png)
+## Analysis and Challenges
 
-From this analysis we found that while there were only a total of 604 Kickstarter campaigns for plays in Great Britain, the "plays" category is the most successful.
+### Analysis of Outcomes Based on Launch Date
 
-![](images/outcomes%20based%20on%20launch%20dates.png)
 
-From this analysis we can observe that the most successful Kickstarter campaigns were started in May. On the other hand, December doesn't seem like a great time to launch a campaign.
+From the analysis of data and the line chart of outcomes based on the launch month for the theater category of Kickstarter campaigns we can see that May is the best time to launch such campaigns. Campaigns launched in September to March are the least successful. Although, there are a high number of failed campaigns in May, it could be attributed to the fact that a total of 166 theater campaigns were launched that month which is the highest across all the other months.
 
-![](images/statistical%20analysis.png)
 
-From this statistical analysis we can observe that failed Kickstarter campaigns have much higher fundraising goals than successful Kickstarter campaigns. Louise is asking for more than twice the average successful Kickstarter goal, so this isn't great news for her campaign. In addition, the mean and median pledged amounts are much lower than the successful pledges, which indicates that failed Kickstarter campaigns are unsuccessful for reasons other than asking for too much money. In other words, if the failed projects were also getting a median pledge amount of around $3,000, it's possible that those that failed just asked for too high of a price. Since the median is much lower, there must be another factor keeping people from pledging to those unsuccessful projects.
+### Analysis of Outcomes Based on Goals
+Image 2 
 
-## Conclusion
+From the line chart on we can observe that campaigns for plays who had a goal of less than $1000 and just below $5000 were the most successful with close to having a success rate in the 70th percentile. On the other hand, plays who had a goal between $35000 and $40000 also had a good success rate close to 67%. This can indicate that other than just the fundraising goal there could be other factors that do a play an important part in having a successful campaign. The most unsuccessful campaigns are the ones who set with goals over $45,000.  
 
-![](images/box%20and%20whisker.png)
 
-From this analysis, we can see that the mean campaign goal is around £4,000 in UK. This is outside of the range of outliers for amount pledged, so Louise should probably try to get her play produced for less than £4,000. Half of the campaign goals are less than £2,000, which is just over the 3rd quartile for amounts pledged. Louise should also try to launch her campaign in May in UK and try to get per play produced for £2,000 to be successful.
+### Challenges and Difficulties Encountered
+
+The initial data on launch date was not readable as they contained UNIX timestamps. To solve this issue the data was converted so that they represented a standard date format to better read and understand the data. Furthermore, we just needed the year to do our analysis on launch date. To solve this, the launch date column was further profiled by using the YEAR function in Excel so that we could quickly extract the data for the analysis.
+## Results
+
+- What are two conclusions you can draw about the Outcomes based on Launch Date?
+
+We can deduce the following conclusions from Analysis of Outcomes based on Launch Date: 
+-	May is the most successful month to launch a Kickstarter campaign for a play. 
+-	September to March are the least successful months to launch a campaign.
+
+- What can you conclude about the Outcomes based on Goals?
+We can deduce the following conclusions from Analysis of Outcomes based on Goals:
+-	Having a low fundraising goal below $1000 has the highest success rate. 
+-	Factors other than just a low goal amount also influence the success rate of the campaign as we observed that even higher goal amounts of $35000-$45000 have a high success rate. 
+
+
+- What are some limitations of this dataset?
+
+The data set is just a representation of the sample from a handful number of countries and it might not be a very accurate representation of the Kickstarter campaign data. The data set has Goal and Pledged amounts in various currencies and adjustments for the currency exchange rate has to be made to paint a more accurate picture.    
+
+- What are some other possible tables and/or graphs that we could create?
+
+To have a better understand the correlation of the Fundraising Goals and launch date with successful campaigns we could calculate central tendency measures such as mean, mode and median and also the spread of the data through variance and standard deviation. We can then perform a linear regression to understand fully the correlation between launch and date and goals with campaign success.  
