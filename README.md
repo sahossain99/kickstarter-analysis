@@ -12,14 +12,14 @@ The Purpose of the project was to help Louise understand how previous fundraisin
 
 ### Analysis of Outcomes Based on Launch Date
 
-![]resources/Theatre_Outcomes_vs_Launch.png
+![]Resources/Theatre_Outcomes_vs_Launch.png
 
 From the analysis of data and the line chart of outcomes based on the launch month for the theater category of Kickstarter campaigns we can see that May is the best time to launch such campaigns. Campaigns launched in September to March are the least successful. Although, there are a high number of failed campaigns in May, it could be attributed to the fact that a total of 166 theater campaigns were launched that month which is the highest across all the other months.
 
 
 ### Analysis of Outcomes Based on Goals
 
-![]resources/Outcomes_vs_Goals.png
+![]Resources/Outcomes_vs_Goals.png
 
 From the line chart on we can observe that campaigns for plays who had a goal of less than $1000 and just below $5000 were the most successful with close to having a success rate in the 70th percentile. On the other hand, plays who had a goal between $35000 and $40000 also had a good success rate close to 67%. This can indicate that other than just the fundraising goal there could be other factors that do a play an important part in having a successful campaign. The most unsuccessful campaigns are the ones who set with goals over $45,000.  
 
@@ -39,4 +39,4 @@ We can deduce the following conclusions from Analysis of Outcomes based on Goals
 
 There are some limitations of this data set. The data set is just a representation of the sample from a handful number of countries and it might not be a very accurate representation of the Kickstarter campaign data. The data set has Goal and Pledged amounts in various currencies and adjustments for the currency exchange rate has to be made to paint a more accurate picture.    
 
-To have a better understand the correlation of the Fundraising Goals and launch date with successful campaigns we could calculate central tendency measures such as mean, mode and median and also the spread of the data through variance and standard deviation. We can then perform a linear regression to understand fully the correlation between launch and date and goals with campaign success.  
+To better understand the correlation of the Fundraising Goals and launch date with successful campaigns we can calculate central tendency measures such as mean, mode and median and also the spread of the data through variance and standard deviation. We can then perform a linear regression to understand fully the correlation between launch and date and goals with campaign success.  
